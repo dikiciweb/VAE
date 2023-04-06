@@ -143,3 +143,5 @@ def plot_label_clusters(vae, data, labels):
 x_train = np.expand_dims(x_train, -1).astype("float32") / 255
 
 plot_label_clusters(vae, x_train, y_train)
+
+print("ADDED")
